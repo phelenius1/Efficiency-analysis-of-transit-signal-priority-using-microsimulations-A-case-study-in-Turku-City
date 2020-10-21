@@ -1,0 +1,111 @@
+<additional>
+   <inductionLoop id="338_108" lane="E18_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="E11" lane="E11_0" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="334_107" lane="E5_1" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="334_107L" lane="E5_0" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_207B" lane="W58_1" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_207A" lane="W58_0" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_607L" lane="E30_0" pos="65" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="334_207L" lane="W56_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="334_207" lane="W56_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="E61" lane="E60_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="W1" lane="W2_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="N31_0" lane="N31_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="N31_1" lane="N31_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="420_202A" lane="E52_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="420_202B" lane="E52_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="E35_0" lane="E35_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="W49_0" lane="W49_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_907" lane="E22_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_707" lane="E22_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="338_208" lane="W43_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="338_100" lane="E19_1" pos="35" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_607" lane="W37_0" pos="300" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_800" lane="W39_1" pos="300" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="W22_0" lane="W22_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="420_102A" lane="W9.5_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="420_102B" lane="W9.5_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_306" lane="E2_3" pos="110" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_106" lane="E2_0" pos="110" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_400" lane="Raunistulan1_2" pos="55" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_300" lane="Raunistulan5_2" pos="40" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_302" lane="Raunistulan5_2" pos="5" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_103" lane="Raunistulan5_0" pos="40" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_903" lane="Raunistulan8_0" pos="40" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_108A" lane="E2_2" pos="110" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="333_108B" lane="E2_1" pos="110" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_707L" lane="W31_2" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_507L" lane="W31_1" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_507" lane="W31_0" pos="50" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_107" lane="Raunistulan4_1" pos="55" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_107L" lane="Raunistulan4_0" pos="55" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_405" lane="Raunistulan0_1" pos="88" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_207L" lane="Raunistulan0_0" pos="88" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_210A" lane="TampereV.0_0" pos="15" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_210B" lane="TampereV.0_1" pos="15" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_110A" lane="TampereV.5_0" pos="25" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_110B" lane="TampereV.5_1" pos="25" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_503" lane="TampereV.1_0" pos="12" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_403" lane="TampereV.1_3" pos="12" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="405_305" lane="TampereV.4_2" pos="15" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="409_800" lane="E31_2" pos="20" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="336_108" lane="E12_0" pos="20" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   <inductionLoop id="336_208L" lane="W49_0" pos="120" freq="3600"
+   file="Inductionloop1.xml" friendlyPos="true"/>
+   
+
+
+
+
+</additional>

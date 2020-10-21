@@ -1,0 +1,315 @@
+<routes>
+	<vType id="car"
+			vClass="passenger" length="5" accel="1.818" decel="2.2"
+			sigma="0.5" maxSpeed="50" speedFactor = "1"/>
+
+	<vType id="pt_bus" vClass="bus" maxSpeed= "50" accel="1.314" sigma="0.4" speedFactor = "1" speedDev="0"/>
+	<!-- Duration is the median stop time where all bus stop under 5 seconds have been removed
+    -->
+	<route id="Bus_E" edges="E2	E3	E4	E5	E6	E7	E9	E10	E10.5 E11	E12	E13	E14	E15	E16	E17	E18	E19	E20	E21	E22	E23	E24	E25	E26	E27	E28	E29	E30	E31	
+    	E33	E34	E35	E36	E37	E38	E39 E39.5 E40  E41	E42	E43	E44	E45	E46	E47	E47.5	E49	E50	E51	E52	E53	E54	E55	E56	E57	E58	E59	E60	E61">
+        
+        <!--Outside rush hours, median-->
+        
+        <stop busStop="busStop_1560" duration="2" parking="1"/>
+        <stop busStop="busStop_976" duration="1" parking="1"/>
+        <stop busStop="busStop_454" duration="4" parking="1"/>
+        <stop busStop="busStop_455" duration="2" parking="1"/>
+        <stop busStop="busStop_1561" duration="3" parking="1"/>
+        <stop busStop="busStop_978" duration="2" parking="1"/>
+        <stop busStop="busStop_1592" duration="1" parking="1"/>
+        <stop busStop="busStop_1588" duration="2" parking="1"/>
+        <stop busStop="busStop_231" duration="5" parking="1"/>
+        <stop busStop="busStop_1624" duration="1" parking="1"/>
+        <stop busStop="busStop_1442" duration="1" parking="1"/> 
+        <stop busStop="busStop_1409" duration="3" parking="1"/>
+        <stop busStop="busStop_1410" duration="5" parking="1"/>
+        <stop busStop="busStop_1634" duration="1" parking="1"/>
+        <stop busStop="busStop_1411" duration="2" parking="1"/>
+        <stop busStop="busStop_213" duration="5" parking="1"/>
+
+        
+        <!--Rush hours median-->
+<!--
+        <stop busStop="busStop_1560" duration="4" parking="1"/>
+        <stop busStop="busStop_976" duration="2" parking="1"/>
+        <stop busStop="busStop_454" duration="6" parking="1"/>
+        <stop busStop="busStop_455" duration="6" parking="1"/>
+        <stop busStop="busStop_1561" duration="5" parking="1"/>
+        <stop busStop="busStop_978" duration="5" parking="1"/>
+        <stop busStop="busStop_1592" duration="4" parking="1"/>
+        <stop busStop="busStop_1588" duration="7" parking="1"/>
+        <stop busStop="busStop_231" duration="8" parking="1"/> 
+        <stop busStop="busStop_1624" duration="3" parking="1"/>
+        <stop busStop="busStop_1442" duration="2" parking="1"/> 
+        <stop busStop="busStop_1409" duration="8" parking="1"/>
+        <stop busStop="busStop_1410" duration="8" parking="1"/>
+        <stop busStop="busStop_1634" duration="2" parking="1"/>
+        <stop busStop="busStop_1411" duration="2" parking="1"/> 
+        <stop busStop="busStop_213" duration="8" parking="1"/>
+    -->
+
+    </route>
+    <route id="Bus_W" edges="W1	W2	W3	W4	W5	W6	W7	W8	W9	W9.5  W10  W11	W12	W13	W14	W15	W16	W17	W18	W19	W20	W21	W22	W23	W24	W25	W26	W27	W28	W29
+    W30	W31	W32	W33	W34	W35	W36	W37	W38	W39	W40	W41	W42	W43	W44	W45	W46	W47	W48	W49	W50	W51	W52	W53	W54	W56	W57	W58	W59	W60	W61">
+
+        <!--Outside rush hours, median-->
+   
+        <stop busStop="busStop_1403" duration="5" parking="1"/> 
+        <stop busStop="busStop_1404" duration="1" parking="1"/>
+        <stop busStop="busStop_1635" duration="1" parking="1"/>
+        <stop busStop="busStop_1405" duration="10" parking="1"/>
+        <stop busStop="busStop_1406" duration="4" parking="1"/>
+        <stop busStop="busStop_1407" duration="1" parking="1"/>
+        <stop busStop="busStop_1625" duration="2" parking="1"/>
+        <stop busStop="busStop_268" duration="5" parking="1"/>
+        <stop busStop="busStop_1590" duration="3" parking="1"/>
+        <stop busStop="busStop_1591" duration="2" parking="1"/>
+        <stop busStop="busStop_961" duration="3" parking="1"/>
+        <stop busStop="busStop_440" duration="5" parking="1"/>
+        <stop busStop="busStop_441" duration="5" parking="1"/>
+        <stop busStop="busStop_962" duration="3" parking="1"/>
+        <stop busStop="busStop_963" duration="1" parking="1"/>
+        <stop busStop="busStop_1469" duration="3" parking="1"/>
+
+
+        <!--Rush hours, median-->
+     <!--
+        <stop busStop="busStop_1403" duration="4" parking="1"/> 
+        <stop busStop="busStop_1404" duration="1" parking="1"/>
+        <stop busStop="busStop_1635" duration="3" parking="1"/>
+        <stop busStop="busStop_1405" duration="4" parking="1"/>
+        <stop busStop="busStop_1406" duration="3" parking="1"/>
+        <stop busStop="busStop_1407" duration="1" parking="1"/>
+        <stop busStop="busStop_1625" duration="2" parking="1"/>
+        <stop busStop="busStop_268" duration="5" parking="1"/>
+        <stop busStop="busStop_1590" duration="1" parking="1"/>
+        <stop busStop="busStop_1591" duration="1" parking="1"/>
+        <stop busStop="busStop_961" duration="2" parking="1"/>
+        <stop busStop="busStop_440" duration="4" parking="1"/>
+        <stop busStop="busStop_441" duration="3" parking="1"/>
+        <stop busStop="busStop_962" duration="4" parking="1"/>
+        <stop busStop="busStop_963" duration="1" parking="1"/>
+        <stop busStop="busStop_1469" duration="3" parking="1"/>
+-->
+    </route>
+
+<!-- Bus flow is defined at the bottom of this script-->
+
+<!--Vehicle traffic-->
+<!--
+    <route id="E2_0_S1.5_0.qPKW.60" edges="E2 S1 S1.5"/>
+    <route id="E2_1_E61_0.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="E2_1_N56_0.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 N56"/>
+    <route id="E2_1_N32_0.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 N32"/>
+    <route id="E2_1_Raunistulan7_1.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 Raunistulan6 Raunistulan7"/>
+    <route id="E2_1_TampereV.2_1.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="E2_1_S9_0.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 S9"/>
+    <route id="E2_1_S3_0.qPKW.60" edges="E2 E3 E4 E5 E6 S3"/>
+    <route id="E2_2_TampereV.2_1.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="E2_2_S9_0.qPKW.60" edges="E2 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 S9"/>
+    <route id="E2_2_N4.5_0.qPKW.60" edges="E2 E3 E4 E5 E6 N4 N4.5"/>
+    <route id="E2_3_N2_0.qPKW.60" edges="E2 N2"/>
+    <route id="N1_0_W60_0.qPKW.60" edges="N1 W60"/>
+    <route id="N1_1_S1.5_0.qPKW.60" edges="N1 S1 S1.5"/>
+    <route id="N1_2_E61_0.qPKW.60" edges="N1 E3 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="N1_2_N4.5_0.qPKW.60" edges="N1 E3 E4 E5 E6 N4 N4.5"/>
+    <route id="N3.5_0_N2_0.qPKW.60" edges="N3.5 N3 W58 W59 N2"/>
+    <route id="N3.5_0_W60_0.qPKW.60" edges="N3.5 N3 W58 W59 W60"/>
+    <route id="N3.5_0_E61_0.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="N3.5_0_N56_0.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 N56"/>
+    <route id="N3.5_0_N32_0.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 N32"/>
+    <route id="N3.5_0_TampereV.3_0.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.3"/>
+    <route id="N3.5_0_TampereV.2_1.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="N3.5_0_S9_0.qPKW.60" edges="N3.5 N3 E7 E9 E10 E10.5 E11 E12 S9"/>
+    <route id="N31_0_Raunistulan7_0.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 Raunistulan6 Raunistulan7"/>
+    <route id="N31_0_N10_0.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="N31_0_S9_0.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 S9"/>
+    <route id="N31_0_N10_0.1.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="N31_0_W60_0.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="N31_0_W60_0.1.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="N31_0_W60_1.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="N31_0_S9_0.1.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 S9"/>
+    <route id="N31_0_Raunistulan3_1.qPKW.60" edges="N31 W26 W27 W28 W29 W30 W31 Raunistulan2 Raunistulan3"/>
+    <route id="N31_1_E61_0.qPKW.60" edges="N31 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="N31_1_S29_0.qPKW.60" edges="N31 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 S29"/>
+    <route id="N31_1_N56_0.qPKW.60" edges="N31 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 N56"/>
+    <route id="N55_0_E61_0.qPKW.60" edges="N55 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="N55_0_N32_0.qPKW.60" edges="N55 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 N32"/>
+    <route id="N9_0_N2_0.qPKW.60" edges="N9 W51 W52 W53 W54 W56 W57 W58 W59 N2"/>
+    <route id="N9_0_W60_0.qPKW.60" edges="N9 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="N9_0_W60_1.qPKW.60" edges="N9 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="N9_1_N32_0.qPKW.60" edges="N9 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 N32"/>
+    <route id="N9_1_Raunistulan7_1.qPKW.60" edges="N9 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 Raunistulan6 Raunistulan7"/>
+    <route id="N9_1_kekku2_0.qPKW.60" edges="N9 E13 E14 E15 E16 E17 E18 E19 kekku2"/>
+    <route id="Raunistulan0_0_Raunistulan3_0.qPKW.60" edges="Raunistulan0 Raunistulan1 Raunistulan2 Raunistulan3"/>
+    <route id="Raunistulan0_0_TampereV.2_0.qPKW.60" edges="Raunistulan0 Raunistulan1 W32 W33 W34 W35 W36 W37 W38 W39 TampereV.2"/>
+    <route id="Raunistulan0_0_TampereV.3_1.qPKW.60" edges="Raunistulan0 Raunistulan1 W32 W33 W34 W35 W36 W37 W38 W39 TampereV.3"/>
+    <route id="Raunistulan0_1_Raunistulan3_1.qPKW.60" edges="Raunistulan0 Raunistulan1 Raunistulan2 Raunistulan3"/>
+    <route id="Raunistulan4_0_Raunistulan7_0.qPKW.60" edges="Raunistulan4 Raunistulan5 Raunistulan6 Raunistulan7"/>
+    <route id="Raunistulan4_0_Raunistulan7_1.qPKW.60" edges="Raunistulan4 Raunistulan5 Raunistulan6 Raunistulan7"/>
+    <route id="Raunistulan4_0_E61_0.qPKW.60" edges="Raunistulan4 Raunistulan8 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="Raunistulan4_0_N32_0.qPKW.60" edges="Raunistulan4 Raunistulan8 E33 E34 E35 E36 E37 N32"/>
+    <route id="Raunistulan4_1_Raunistulan7_1.qPKW.60" edges="Raunistulan4 Raunistulan5 Raunistulan6 Raunistulan7"/>
+    <route id="Raunistulan4_1_N10_0.qPKW.60" edges="Raunistulan4 Raunistulan5 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="Raunistulan4_1_S9_0.qPKW.60" edges="Raunistulan4 Raunistulan5 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 S9"/>
+    <route id="Raunistulan4_1_TampereV.3_1.qPKW.60" edges="Raunistulan4 Raunistulan5 W32 W33 W34 W35 W36 W37 W38 W39 TampereV.3"/>
+    <route id="S10_0_E61_0.qPKW.60" edges="S10 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="S10_0_Raunistulan7_1.qPKW.60" edges="S10 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 Raunistulan6 Raunistulan7"/>
+    <route id="S10_0_TampereV.3_0.qPKW.60" edges="S10 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.3"/>
+    <route id="S10_0_TampereV.2_1.qPKW.60" edges="S10 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="S10_0_kekku2_0.qPKW.60" edges="S10 E13 E14 E15 E16 E17 E18 E19 kekku2"/>
+    <route id="S10_1_W60_0.qPKW.60" edges="S10 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="S10_1_W60_1.qPKW.60" edges="S10 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="S2.5_0_TampereV.2_1.qPKW.60" edges="S2.5 S2 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="S2.5_0_kekku2_0.qPKW.60" edges="S2.5 S2 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 kekku2"/>
+    <route id="S2.5_0_S9_0.qPKW.60" edges="S2.5 S2 E4 E5 E6 E7 E9 E10 E10.5 E11 E12 S9"/>
+    <route id="S30_0_E61_0.qPKW.60" edges="S30 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="S30_0_N56_0.qPKW.60" edges="S30 N56"/>
+    <route id="S30_0_N32_0.qPKW.60" edges="S30 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 N32"/>
+    <route id="S4_0_TampereV.2_1.qPKW.60" edges="S4 E7 E9 E10 E10.5 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 TampereV.2"/>
+    <route id="S4_1_N4.5_0.qPKW.60" edges="S4 N4 N4.5"/>
+    <route id="S4_2_W60_1.qPKW.60" edges="S4 W58 W59 W60"/>
+    <route id="S4_2_S1.5_0.qPKW.60" edges="S4 W58 W59 S1 S1.5"/>
+    <route id="TampereV.0_0_N10_0.qPKW.60" edges="TampereV.0 TampereV.1 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="TampereV.0_0_S9_0.qPKW.60" edges="TampereV.0 TampereV.1 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 S9"/>
+    <route id="TampereV.0_0_kekku2_0.qPKW.60" edges="TampereV.0 TampereV.1 W40 W41 W42 W43 kekku2"/>
+    <route id="TampereV.0_0_TampereV.3_0.qPKW.60" edges="TampereV.0 TampereV.1 TampereV.3"/>
+    <route id="TampereV.0_0_TampereV.3_1.qPKW.60" edges="TampereV.0 TampereV.1 TampereV.3"/>
+    <route id="TampereV.0_1_TampereV.3_0.qPKW.60" edges="TampereV.0 TampereV.1 TampereV.3"/>
+    <route id="TampereV.0_1_TampereV.3_1.qPKW.60" edges="TampereV.0 TampereV.1 TampereV.3"/>
+    <route id="TampereV.0_1_E61_0.qPKW.60" edges="TampereV.0 TampereV.1 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="TampereV.5_0_E61_0.qPKW.60" edges="TampereV.5 TampereV.4 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="TampereV.5_0_TampereV.2_0.qPKW.60" edges="TampereV.5 TampereV.4 TampereV.2"/>
+    <route id="TampereV.5_1_TampereV.2_1.qPKW.60" edges="TampereV.5 TampereV.4 TampereV.2"/>
+    <route id="TampereV.5_1_N10_0.qPKW.60" edges="TampereV.5 TampereV.4 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="TampereV.5_1_S9_0.qPKW.60" edges="TampereV.5 TampereV.4 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 S9"/>
+    <route id="W1_0_N32_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 N32"/>
+    <route id="W1_0_Raunistulan7_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 Raunistulan6 Raunistulan7"/>
+    <route id="W1_0_TampereV.2_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 TampereV.2"/>
+    <route id="W1_0_N10_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="W1_0_W60_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 W40 W41 W42 W43 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="W1_0_TampereV.2_0.1.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 W32 W33 W34 W35 W36 W37 W38 W39 TampereV.2"/>
+    <route id="W1_0_Raunistulan3_1.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 W10 W11 W12 W13 W14 W15 W16 W17 W18 W19 W20 W21 W22 W23 W24 W25 W26 W27 W28 W29 W30 W31 Raunistulan2 Raunistulan3"/>
+    <route id="W1_0_S29_0.qPKW.60" edges="W1 W2 W3 W4 W5 W6 W7 W8 W9 W9.5 S29"/>
+    <route id="kekku1_0_E61_0.qPKW.60" edges="kekku1 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61"/>
+    <route id="kekku1_0_S29_0.qPKW.60" edges="kekku1 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E33 E34 E35 E36 E37 E38 E39 E39.5 E40 E41 E42 E43 E44 E45 E46 E47 E47.5 E49 E50 E51 E52 S29"/>
+    <route id="kekku1_0_TampereV.3_0.qPKW.60" edges="kekku1 E20 E21 E22 E23 TampereV.3"/>
+    <route id="kekku1_0_N10_0.qPKW.60" edges="kekku1 W44 W45 W46 W47 W48 W49 W50 N10"/>
+    <route id="kekku1_0_W60_0.qPKW.60" edges="kekku1 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="kekku1_0_W60_1.qPKW.60" edges="kekku1 W44 W45 W46 W47 W48 W49 W50 W51 W52 W53 W54 W56 W57 W58 W59 W60"/>
+    <route id="kekku1_0_S9_0.qPKW.60" edges="kekku1 W44 W45 W46 W47 W48 W49 W50 S9"/>
+
+
+    <route id="Raunistula_E36_NotAutoGenerated" edges="Raunistulan0 Raunistulan1 E33 E34 E35 E36"/>                                                               <!-HUOM. Self added!!!!!!!!!!!!!!!!!!!!!!!!->
+    <flow id="Raunistula_E36_NotAutoGenerated" departSpeed="max" departLane="best" route="Raunistula_E36_NotAutoGenerated" vehsPerHour="113" beg="0" end="79200"/>
+
+
+    <flow id="E2_0_S1.5_0.qPKW.60" departSpeed="max" departLane="best" route="E2_0_S1.5_0.qPKW.60" vehsPerHour="130" beg="0" end="79200"/>
+    <flow id="E2_1_E61_0.qPKW.60" departSpeed="max" departLane="best" route="E2_1_E61_0.qPKW.60" vehsPerHour="7" beg="0" end="79200"/>
+    <flow id="E2_1_N56_0.qPKW.60" departSpeed="max" departLane="best" route="E2_1_N56_0.qPKW.60" vehsPerHour="5" beg="0" end="79200"/>
+    <flow id="E2_1_N32_0.qPKW.60" departSpeed="max" departLane="best" route="E2_1_N32_0.qPKW.60" vehsPerHour="1" beg="0" end="79200"/>
+    <flow id="E2_1_Raunistulan7_1.qPKW.60" departSpeed="max" departLane="best" route="E2_1_Raunistulan7_1.qPKW.60" vehsPerHour="44" beg="0" end="79200"/>
+    <flow id="E2_1_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="E2_1_TampereV.2_1.qPKW.60" vehsPerHour="65" beg="0" end="79200"/>
+    <flow id="E2_1_S9_0.qPKW.60" departSpeed="max" departLane="best" route="E2_1_S9_0.qPKW.60" vehsPerHour="67" beg="0" end="79200"/>
+    <flow id="E2_1_S3_0.qPKW.60" departSpeed="max" departLane="best" route="E2_1_S3_0.qPKW.60" vehsPerHour="39" beg="0" end="79200"/>
+    <flow id="E2_2_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="E2_2_TampereV.2_1.qPKW.60" vehsPerHour="11" beg="0" end="79200"/>
+    <flow id="E2_2_S9_0.qPKW.60" departSpeed="max" departLane="best" route="E2_2_S9_0.qPKW.60" vehsPerHour="6" beg="0" end="79200"/>
+    <flow id="E2_2_N4.5_0.qPKW.60" departSpeed="max" departLane="best" route="E2_2_N4.5_0.qPKW.60" vehsPerHour="210" beg="0" end="79200"/>
+    <flow id="E2_3_N2_0.qPKW.60" departSpeed="max" departLane="best" route="E2_3_N2_0.qPKW.60" vehsPerHour="250" beg="0" end="79200"/>
+    <flow id="N1_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="N1_0_W60_0.qPKW.60" vehsPerHour="125" beg="0" end="79200"/>
+    <flow id="N1_1_S1.5_0.qPKW.60" departSpeed="max" departLane="best" route="N1_1_S1.5_0.qPKW.60" vehsPerHour="60" beg="0" end="79200"/>
+    <flow id="N1_2_E61_0.qPKW.60" departSpeed="max" departLane="best" route="N1_2_E61_0.qPKW.60" vehsPerHour="26" beg="0" end="79200"/>
+    <flow id="N1_2_N4.5_0.qPKW.60" departSpeed="max" departLane="best" route="N1_2_N4.5_0.qPKW.60" vehsPerHour="7" beg="0" end="79200"/>
+    <flow id="N3.5_0_N2_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_N2_0.qPKW.60" vehsPerHour="80" beg="0" end="79200"/>
+    <flow id="N3.5_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_W60_0.qPKW.60" vehsPerHour="27" beg="0" end="79200"/>
+    <flow id="N3.5_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_E61_0.qPKW.60" vehsPerHour="6" beg="0" end="79200"/>
+    <flow id="N3.5_0_N56_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_N56_0.qPKW.60" vehsPerHour="16" beg="0" end="79200"/>
+    <flow id="N3.5_0_N32_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_N32_0.qPKW.60" vehsPerHour="1" beg="0" end="79200"/>
+    <flow id="N3.5_0_TampereV.3_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_TampereV.3_0.qPKW.60" vehsPerHour="67" beg="0" end="79200"/>
+    <flow id="N3.5_0_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_TampereV.2_1.qPKW.60" vehsPerHour="6" beg="0" end="79200"/>
+    <flow id="N3.5_0_S9_0.qPKW.60" departSpeed="max" departLane="best" route="N3.5_0_S9_0.qPKW.60" vehsPerHour="18" beg="0" end="79200"/>
+    <flow id="N31_0_Raunistulan7_0.qPKW.60" departSpeed="max" departLane="best" route="N31_0_Raunistulan7_0.qPKW.60" vehsPerHour="92" beg="0" end="79200"/>
+    <flow id="N31_0_N10_0.qPKW.60" departSpeed="max" departLane="best" route="N31_0_N10_0.qPKW.60" vehsPerHour="30" beg="0" end="79200"/>
+    <flow id="N31_0_S9_0.qPKW.60" departSpeed="max" departLane="best" route="N31_0_S9_0.qPKW.60" vehsPerHour="8" beg="0" end="79200"/>
+    <flow id="N31_0_N10_0.1.qPKW.60" departSpeed="max" departLane="best" route="N31_0_N10_0.1.qPKW.60" vehsPerHour="32" beg="0" end="79200"/>
+    <flow id="N31_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="N31_0_W60_0.qPKW.60" vehsPerHour="13" beg="0" end="79200"/>
+    <flow id="N31_0_W60_0.1.qPKW.60" departSpeed="max" departLane="best" route="N31_0_W60_0.1.qPKW.60" vehsPerHour="32" beg="0" end="79200"/>
+    <flow id="N31_0_W60_1.qPKW.60" departSpeed="max" departLane="best" route="N31_0_W60_1.qPKW.60" vehsPerHour="13" beg="0" end="79200"/>
+    <flow id="N31_0_S9_0.1.qPKW.60" departSpeed="max" departLane="best" route="N31_0_S9_0.1.qPKW.60" vehsPerHour="2" beg="0" end="79200"/>
+    <flow id="N31_0_Raunistulan3_1.qPKW.60" departSpeed="max" departLane="best" route="N31_0_Raunistulan3_1.qPKW.60" vehsPerHour="117" beg="0" end="79200"/>
+    <flow id="N31_1_E61_0.qPKW.60" departSpeed="max" departLane="best" route="N31_1_E61_0.qPKW.60" vehsPerHour="164" beg="0" end="79200"/>
+    <flow id="N31_1_S29_0.qPKW.60" departSpeed="max" departLane="best" route="N31_1_S29_0.qPKW.60" vehsPerHour="17" beg="0" end="79200"/>
+    <flow id="N31_1_N56_0.qPKW.60" departSpeed="max" departLane="best" route="N31_1_N56_0.qPKW.60" vehsPerHour="7" beg="0" end="79200"/>
+    <flow id="N55_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="N55_0_E61_0.qPKW.60" vehsPerHour="35" beg="0" end="79200"/>
+    <flow id="N55_0_N32_0.qPKW.60" departSpeed="max" departLane="best" route="N55_0_N32_0.qPKW.60" vehsPerHour="21" beg="0" end="79200"/>
+    <flow id="N9_0_N2_0.qPKW.60" departSpeed="max" departLane="best" route="N9_0_N2_0.qPKW.60" vehsPerHour="66" beg="0" end="79200"/>
+    <flow id="N9_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="N9_0_W60_0.qPKW.60" vehsPerHour="21" beg="0" end="79200"/>
+    <flow id="N9_0_W60_1.qPKW.60" departSpeed="max" departLane="best" route="N9_0_W60_1.qPKW.60" vehsPerHour="77" beg="0" end="79200"/>
+    <flow id="N9_1_N32_0.qPKW.60" departSpeed="max" departLane="best" route="N9_1_N32_0.qPKW.60" vehsPerHour="4" beg="0" end="79200"/>
+    <flow id="N9_1_Raunistulan7_1.qPKW.60" departSpeed="max" departLane="best" route="N9_1_Raunistulan7_1.qPKW.60" vehsPerHour="13" beg="0" end="79200"/>
+    <flow id="N9_1_kekku2_0.qPKW.60" departSpeed="max" departLane="best" route="N9_1_kekku2_0.qPKW.60" vehsPerHour="10" beg="0" end="79200"/>
+    <flow id="Raunistulan0_0_Raunistulan3_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan0_0_Raunistulan3_0.qPKW.60" vehsPerHour="122" beg="0" end="79200"/>      <!-Original vehsPerhour=162: Removed 40->
+    <flow id="Raunistulan0_0_TampereV.2_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan0_0_TampereV.2_0.qPKW.60" vehsPerHour="15" beg="0" end="79200"/>
+    <flow id="Raunistulan0_0_TampereV.3_1.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan0_0_TampereV.3_1.qPKW.60" vehsPerHour="2" beg="0" end="79200"/>
+    <flow id="Raunistulan0_1_Raunistulan3_1.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan0_1_Raunistulan3_1.qPKW.60" vehsPerHour="154" beg="0" end="79200"/>   <!-Original vehsPerhour=227: Removed 73->
+    <flow id="Raunistulan4_0_Raunistulan7_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_0_Raunistulan7_0.qPKW.60" vehsPerHour="20" beg="0" end="79200"/>
+    <flow id="Raunistulan4_0_Raunistulan7_1.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_0_Raunistulan7_1.qPKW.60" vehsPerHour="81" beg="0" end="79200"/>
+    <flow id="Raunistulan4_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_0_E61_0.qPKW.60" vehsPerHour="92" beg="0" end="79200"/>
+    <flow id="Raunistulan4_0_N32_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_0_N32_0.qPKW.60" vehsPerHour="190" beg="0" end="79200"/>
+    <flow id="Raunistulan4_1_Raunistulan7_1.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_1_Raunistulan7_1.qPKW.60" vehsPerHour="77" beg="0" end="79200"/>
+    <flow id="Raunistulan4_1_N10_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_1_N10_0.qPKW.60" vehsPerHour="18" beg="0" end="79200"/>
+    <flow id="Raunistulan4_1_S9_0.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_1_S9_0.qPKW.60" vehsPerHour="3" beg="0" end="79200"/>
+    <flow id="Raunistulan4_1_TampereV.3_1.qPKW.60" departSpeed="max" departLane="best" route="Raunistulan4_1_TampereV.3_1.qPKW.60" vehsPerHour="4" beg="0" end="79200"/>
+    <flow id="S10_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="S10_0_E61_0.qPKW.60" vehsPerHour="21" beg="0" end="79200"/>
+    <flow id="S10_0_Raunistulan7_1.qPKW.60" departSpeed="max" departLane="best" route="S10_0_Raunistulan7_1.qPKW.60" vehsPerHour="23" beg="0" end="79200"/>
+    <flow id="S10_0_TampereV.3_0.qPKW.60" departSpeed="max" departLane="best" route="S10_0_TampereV.3_0.qPKW.60" vehsPerHour="2" beg="0" end="79200"/>
+    <flow id="S10_0_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="S10_0_TampereV.2_1.qPKW.60" vehsPerHour="102" beg="0" end="79200"/>
+    <flow id="S10_0_kekku2_0.qPKW.60" departSpeed="max" departLane="best" route="S10_0_kekku2_0.qPKW.60" vehsPerHour="17" beg="0" end="79200"/>
+    <flow id="S10_1_W60_0.qPKW.60" departSpeed="max" departLane="best" route="S10_1_W60_0.qPKW.60" vehsPerHour="10" beg="0" end="79200"/>
+    <flow id="S10_1_W60_1.qPKW.60" departSpeed="max" departLane="best" route="S10_1_W60_1.qPKW.60" vehsPerHour="17" beg="0" end="79200"/>
+    <flow id="S2.5_0_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="S2.5_0_TampereV.2_1.qPKW.60" vehsPerHour="20" beg="0" end="79200"/>
+    <flow id="S2.5_0_kekku2_0.qPKW.60" departSpeed="max" departLane="best" route="S2.5_0_kekku2_0.qPKW.60" vehsPerHour="10" beg="0" end="79200"/>
+    <flow id="S2.5_0_S9_0.qPKW.60" departSpeed="max" departLane="best" route="S2.5_0_S9_0.qPKW.60" vehsPerHour="40" beg="0" end="79200"/>
+    <flow id="S30_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="S30_0_E61_0.qPKW.60" vehsPerHour="28" beg="0" end="79200"/>
+    <flow id="S30_0_N56_0.qPKW.60" departSpeed="max" departLane="best" route="S30_0_N56_0.qPKW.60" vehsPerHour="28" beg="0" end="79200"/>
+    <flow id="S30_0_N32_0.qPKW.60" departSpeed="max" departLane="best" route="S30_0_N32_0.qPKW.60" vehsPerHour="14" beg="0" end="79200"/>
+    <flow id="S4_0_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="S4_0_TampereV.2_1.qPKW.60" vehsPerHour="88" beg="0" end="79200"/>
+    <flow id="S4_1_N4.5_0.qPKW.60" departSpeed="max" departLane="best" route="S4_1_N4.5_0.qPKW.60" vehsPerHour="90" beg="0" end="79200"/>
+    <flow id="S4_2_W60_1.qPKW.60" departSpeed="max" departLane="best" route="S4_2_W60_1.qPKW.60" vehsPerHour="27" beg="0" end="79200"/>
+    <flow id="S4_2_S1.5_0.qPKW.60" departSpeed="max" departLane="best" route="S4_2_S1.5_0.qPKW.60" vehsPerHour="60" beg="0" end="79200"/>
+    <flow id="TampereV.0_0_N10_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_0_N10_0.qPKW.60" vehsPerHour="105" beg="0" end="79200"/>
+    <flow id="TampereV.0_0_S9_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_0_S9_0.qPKW.60" vehsPerHour="19" beg="0" end="79200"/>
+    <flow id="TampereV.0_0_kekku2_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_0_kekku2_0.qPKW.60" vehsPerHour="161" beg="0" end="79200"/>
+    <flow id="TampereV.0_0_TampereV.3_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_0_TampereV.3_0.qPKW.60" vehsPerHour="86" beg="0" end="79200"/>
+    <flow id="TampereV.0_0_TampereV.3_1.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_0_TampereV.3_1.qPKW.60" vehsPerHour="186" beg="0" end="79200"/>
+    <flow id="TampereV.0_1_TampereV.3_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_1_TampereV.3_0.qPKW.60" vehsPerHour="182" beg="0" end="79200"/>
+    <flow id="TampereV.0_1_TampereV.3_1.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_1_TampereV.3_1.qPKW.60" vehsPerHour="43" beg="0" end="79200"/>
+    <flow id="TampereV.0_1_E61_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.0_1_E61_0.qPKW.60" vehsPerHour="39" beg="0" end="79200"/>
+    <flow id="TampereV.5_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.5_0_E61_0.qPKW.60" vehsPerHour="52" beg="0" end="79200"/>
+    <flow id="TampereV.5_0_TampereV.2_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.5_0_TampereV.2_0.qPKW.60" vehsPerHour="218" beg="0" end="79200"/>
+    <flow id="TampereV.5_1_TampereV.2_1.qPKW.60" departSpeed="max" departLane="best" route="TampereV.5_1_TampereV.2_1.qPKW.60" vehsPerHour="231" beg="0" end="79200"/>
+    <flow id="TampereV.5_1_N10_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.5_1_N10_0.qPKW.60" vehsPerHour="10" beg="0" end="79200"/>
+    <flow id="TampereV.5_1_S9_0.qPKW.60" departSpeed="max" departLane="best" route="TampereV.5_1_S9_0.qPKW.60" vehsPerHour="58" beg="0" end="79200"/>
+    <flow id="W1_0_N32_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_N32_0.qPKW.60" vehsPerHour="145" beg="0" end="79200"/>
+    <flow id="W1_0_Raunistulan7_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_Raunistulan7_0.qPKW.60" vehsPerHour="96" beg="0" end="79200"/>
+    <flow id="W1_0_TampereV.2_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_TampereV.2_0.qPKW.60" vehsPerHour="89" beg="0" end="79200"/>
+    <flow id="W1_0_N10_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_N10_0.qPKW.60" vehsPerHour="27" beg="0" end="79200"/>
+    <flow id="W1_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_W60_0.qPKW.60" vehsPerHour="13" beg="0" end="79200"/>
+    <flow id="W1_0_TampereV.2_0.1.qPKW.60" departSpeed="max" departLane="best" route="W1_0_TampereV.2_0.1.qPKW.60" vehsPerHour="7" beg="0" end="79200"/>
+    <flow id="W1_0_Raunistulan3_1.qPKW.60" departSpeed="max" departLane="best" route="W1_0_Raunistulan3_1.qPKW.60" vehsPerHour="127" beg="0" end="79200"/>
+    <flow id="W1_0_S29_0.qPKW.60" departSpeed="max" departLane="best" route="W1_0_S29_0.qPKW.60" vehsPerHour="35" beg="0" end="79200"/>
+    <flow id="kekku1_0_E61_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_E61_0.qPKW.60" vehsPerHour="26" beg="0" end="79200"/>
+    <flow id="kekku1_0_S29_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_S29_0.qPKW.60" vehsPerHour="18" beg="0" end="79200"/>
+    <flow id="kekku1_0_TampereV.3_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_TampereV.3_0.qPKW.60" vehsPerHour="20" beg="0" end="79200"/>
+    <flow id="kekku1_0_N10_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_N10_0.qPKW.60" vehsPerHour="38" beg="0" end="79200"/>
+    <flow id="kekku1_0_W60_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_W60_0.qPKW.60" vehsPerHour="12" beg="0" end="79200"/>
+    <flow id="kekku1_0_W60_1.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_W60_1.qPKW.60" vehsPerHour="31" beg="0" end="79200"/>
+    <flow id="kekku1_0_S9_0.qPKW.60" departSpeed="max" departLane="best" route="kekku1_0_S9_0.qPKW.60" vehsPerHour="39" beg="0" end="79200"/>
+-->
+
+
+<!--Because the bus flow starts later it needs to be defined last-->
+    <flow id="bus_E" type="pt_bus" route= "Bus_E" begin="0" end="79200" probability="0.001111111111111" departSpeed="speedLimit" arrivalspeed="speedLimit" departLane="best"/>
+    <flow id="bus_W" type="pt_bus" route= "Bus_W" begin="0" end="79200" probability="0.001111111111111" departSpeed="speedLimit" arrivalspeed="speedLimit" departLane="best"/>
+</routes>

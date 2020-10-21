@@ -1,0 +1,124 @@
+<detectors>
+<!--333-Markulantie/vii (Detector 108 is over two lanes in real world which is not
+possible in SUMO, so it will be split to a and b-->
+<detectorDefinition id="333_306" lane="E2_3" pos="40.00"/>
+<detectorDefinition id="333_108A" lane="E2_2" pos="40.00"/>
+<detectorDefinition id="333_108B" lane="E2_1" pos="40.00"/>
+<detectorDefinition id="333_106" lane="E2_0" pos="40.00"/>
+<detectorDefinition id="333_207A" lane="W58_0" pos="155.00"/>
+<detectorDefinition id="333_207B" lane="W58_1" pos="155.00"/>
+
+<!-- After intersection (own calculations-->
+<detectorDefinition id="N1_0" lane="N1_0" pos="15.00"/>  <!---->
+<detectorDefinition id="N1_1" lane="N1_1" pos="15.00"/>  <!---->
+<detectorDefinition id="N1_2" lane="N1_2" pos="15.00"/>  <!---->
+<detectorDefinition id="N2_0" lane="N2_0" pos="15.00"/>  <!--300?-->
+<detectorDefinition id="S2.5_0" lane="S2.5_0" pos="15.00"/>  <!--70?-->
+<detectorDefinition id="S1.5_0" lane="S1.5_0" pos="10.00"/>
+<detectorDefinition id="W60_0" lane="W60_0" pos="10.00"/>
+<detectorDefinition id="W60_1" lane="W60_1" pos="10.00"/>
+
+<!--334-Markulantie/Nuijamaankatu-->
+<detectorDefinition id="334_107" lane="E5_1" pos="80.00"/>
+<detectorDefinition id="334_107L" lane="E5_0" pos="80.00"/>
+<detectorDefinition id="334_207L" lane="W56_0" pos="30.00"/>
+<detectorDefinition id="334_207" lane="W56_1" pos="30.00"/>
+<!-- own calculations-->
+<detectorDefinition id="N3.5_0" lane="N3.5_0" pos="30.00"/>
+<detectorDefinition id="N4.5_0" lane="N4.5_0" pos="30.00"/>
+<detectorDefinition id="S3_0" lane="S3_0" pos="30.00"/>
+<detectorDefinition id="S4_0" lane="S4_0" pos="30.00"/>
+<detectorDefinition id="S4_1" lane="S4_1" pos="30.00"/>
+<detectorDefinition id="S4_2" lane="S4_2" pos="30.00"/>
+
+<!-- 336-Markulantie/Eskonkatu-->
+<detectorDefinition id="336_108L" lane="E12_0" pos="6.00"/>
+<detectorDefinition id="336_208L" lane="W49_0" pos="125.00"/>
+
+<detectorDefinition id="N9_0" lane="N9_0" pos="30.00"/>
+<detectorDefinition id="N9_1" lane="N9_1" pos="30.00"/>
+<detectorDefinition id="N10_0" lane="N10_0" pos="30.00"/>
+<detectorDefinition id="S10_0" lane="S10_0" pos="30.00"/>
+<detectorDefinition id="S10_1" lane="S10_1" pos="30.00"/>
+<detectorDefinition id="S9_0" lane="S9_0" pos="30.00"/>
+<!-- 338-Markulantie/Kekkurintie-->
+<detectorDefinition id="338_108" lane="E18_0" pos="145.00"/>
+<detectorDefinition id="338_100" lane="E19_1" pos="25.00"/>
+<detectorDefinition id="338_208" lane="W43_0" pos="35.00"/>
+
+<detectorDefinition id="kekku1_0" lane="kekku1_0" pos="35.00"/>
+<detectorDefinition id="kekku2_0" lane="kekku2_0" pos="35.00"/>
+
+
+<!-- 405-Markulantie/Tampereen valtatie-->
+<detectorDefinition id="405_110A" lane="TampereV.5_0" pos="20.00"/>
+<detectorDefinition id="405_110B" lane="TampereV.5_1" pos="20.00"/>
+<detectorDefinition id="405_210A" lane="TampereV.0_0" pos="10.00"/>
+<detectorDefinition id="405_210B" lane="TampereV.0_1" pos="10.00"/>
+<detectorDefinition id="405_607" lane="W38_0" pos="10.00"/>
+<detectorDefinition id="405_707" lane="E22_0" pos="80.00"/>
+<detectorDefinition id="405_907" lane="E22_1" pos="80.00"/>
+<detectorDefinition id="405_305" lane="TampereV.4_2" pos="18.00"/>
+<detectorDefinition id="405_503" lane="TampereV.1_0" pos="10.00"/>
+<detectorDefinition id="405_403" lane="TampereV.1_3" pos="10.00"/>
+<detectorDefinition id="405_800" lane="W39_1" pos="15.00"/>
+<detectorDefinition id="TampereV.3_0" lane="TampereV.3_0" pos="10.00"/>
+<detectorDefinition id="TampereV.3_1" lane="TampereV.3_1" pos="10.00"/>
+<detectorDefinition id="TampereV.2_0" lane="TampereV.2_0" pos="10.00"/>
+<detectorDefinition id="TampereV.2_1" lane="TampereV.2_1" pos="10.00"/>
+
+<!-- 409-Markulantie/Raunistulan puistotie-->
+<detectorDefinition id="409_207L" lane="Raunistulan0_0" pos="70.00"/>
+<detectorDefinition id="409_405" lane="Raunistulan0_1" pos="70.00"/>
+<detectorDefinition id="409_400" lane="Raunistulan1_2" pos="25.00"/>
+<detectorDefinition id="409_507" lane="W31_0" pos="50.00"/>
+<detectorDefinition id="409_507L" lane="W31_1" pos="50.00"/>
+<detectorDefinition id="409_707L" lane="W31_2" pos="50.00"/>
+<detectorDefinition id="409_107" lane="Raunistulan4_1" pos="40.00"/>
+<detectorDefinition id="409_107L" lane="Raunistulan4_0" pos="40.00"/>
+<detectorDefinition id="Raunistulan3_1" lane="Raunistulan3_1" pos="40.00"/>
+<detectorDefinition id="Raunistulan3_0" lane="Raunistulan3_0" pos="40.00"/>
+<detectorDefinition id="409_302" lane="Raunistulan5_2" pos="5.00"/>
+<detectorDefinition id="409_300" lane="Raunistulan5_2" pos="25.00"/>
+<detectorDefinition id="409_103" lane="Raunistulan5_0" pos="20.00"/>
+<detectorDefinition id="409_903" lane="Raunistulan8_0" pos="50.00"/>
+<detectorDefinition id="409_607L" lane="E30_0" pos="165.00"/>
+<detectorDefinition id="409_800" lane="E31_2" pos="15.00"/>
+<detectorDefinition id="Raunistulan7_1" lane="Raunistulan7_1" pos="20.00"/>
+<detectorDefinition id="Raunistulan7_0" lane="Raunistulan7_0" pos="20.00"/>
+
+<!-- 420-Gregorius IX:N Tie/Paavingkatu-->
+<detectorDefinition id="420_102A" lane="W9.5_0" pos="60.00"/>
+<detectorDefinition id="420_102B" lane="W9.5_1" pos="60.00"/>
+<detectorDefinition id="420_202A" lane="E52_0" pos="30.00"/>
+<detectorDefinition id="420_202B" lane="E52_1" pos="30.00"/>
+
+<detectorDefinition id="S29_0" lane="S29_0" pos="30.00"/>
+<detectorDefinition id="S30_0" lane="S30_0" pos="30.00"/>
+<detectorDefinition id="N55_0" lane="N55_0" pos="30.00"/>
+<detectorDefinition id="N56_0" lane="N56_0" pos="30.00"/>
+
+
+<!--Vanha tamperen valtatie-->
+<detectorDefinition id="N31_0" lane="N31_0" pos="20.00"/>
+<detectorDefinition id="N31_1" lane="N31_1" pos="20.00"/>
+<detectorDefinition id="N32_0" lane="N32_0" pos="20.00"/>
+<detectorDefinition id="W22_0" lane="W22_0" pos="20.00"/>
+
+
+
+<!--  506-Halistentie/Hämeentie, Just incoming traffic-->
+<detectorDefinition id="E61_0" lane="E61_0" pos="46.00"/> <!--noin 500-->
+<detectorDefinition id="W1_0" lane="W1_0" pos="10.00"/> <!--539-->
+
+
+<!-- Add lane based-->
+<detectorDefinition id="W29_0" lane="W29_0" pos="15.00"/>
+<detectorDefinition id="E35_0" lane="E35_0" pos="10.00"/>
+<detectorDefinition id="E11_0" lane="E11_0" pos="45.00"/>
+
+<detectorDefinition id="N3_0" lane="N3_0" pos="45.00"/>
+<detectorDefinition id="N3_1" lane="N3_1" pos="45.00"/>
+
+
+</detectors>

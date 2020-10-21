@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<input>
+		<net-file value="route99_1.net.xml"/>
+		<route-files value="route99.rou.xml"/>
+		<additional-files value="BusStop_1.add.xml, Inductionloops.add.xml"/>
+		
+	</input>
+	<output>
+		<!-- <fcd-output value="fcd_output.xml"/> -->
+		<tripinfo-output value="tripinfo99_OnlyBus_NoPriority.xml"/>
+		<summary-output value="summaryoutput.xml"/>
+	</output>
+	<random_number>
+		<seed value= "100"/>
+	</random_number>
+
+
+</configuration>
