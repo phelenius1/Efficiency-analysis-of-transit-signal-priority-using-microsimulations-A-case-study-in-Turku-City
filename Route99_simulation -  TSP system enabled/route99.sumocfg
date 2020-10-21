@@ -1,0 +1,16 @@
+<configuration>
+	<input>
+		<net-file value="route99_1.net.xml"/>
+		<route-files value="route99.rou.xml"/>
+		<additional-files value="BusStop_1.add.xml, Inductionloops.add.xml, busdetectors.add.xml"/>
+	</input>
+	<output>
+		<!-- <fcd-output value="fcd_output.xml"/> -->
+		<tripinfo-output value="tripinfo99_NoPriority.xml"/>
+		<summary-output value="summaryoutput.xml"/>
+	</output>
+	<random_number>
+		<seed value= "17555"/>  <!--Seed values used: 1111, 5222, 9333, 13444, 17555-->
+	</random_number>
+
+</configuration>
