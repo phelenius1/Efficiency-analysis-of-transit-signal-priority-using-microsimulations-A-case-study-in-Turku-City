@@ -1,0 +1,68 @@
+<additional>
+<!--333-->    
+    <e1Detector id="333E_B1" lane='E2_0' pos='-120' freq='1' file='det.out.xml'/>
+    <e1Detector id="333E_B2" lane='E2_1' pos='-120' freq='1' file='det.out.xml'/> 
+    <e1Detector id="333E_B3" lane='E2_2' pos='-120' freq='1' file='det.out.xml'/>  
+    <e1Detector id="333E_A1" lane='E3_0' pos='5' freq='1' file='det.out.xml'/>
+    <e1Detector id="333E_A2" lane='E3_1' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="333W_B1" lane='W58_1' pos='-90' freq='1' file='det.out.xml'/>
+    <e1Detector id="333W_B2" lane='W58_0' pos='-90' freq='1' file='det.out.xml'/> 
+    <e1Detector id="333W_A1" lane='W60_0' pos='5' freq='1' file='det.out.xml'/>  
+    <e1Detector id="333W_A2" lane='W60_1' pos='5' freq='1' file='det.out.xml'/>
+
+<!--334-->
+    <e1Detector id="334E_B1" lane='E4_0' pos='-7' freq='1' file='det.out.xml'/>
+    <e1Detector id="334E_B2" lane='E4_1' pos='-7' freq='1' file='det.out.xml'/>
+    <e1Detector id="334E_B3" lane='E4_2' pos='-7' freq='1' file='det.out.xml'/>
+    <e1Detector id="334E_A1" lane='E7_0' pos='5' freq='1' file='det.out.xml'/>
+    <e1Detector id="334E_A2" lane='E7_1' pos='5' freq='1' file='det.out.xml'/>
+    
+    <e1Detector id="334W_B1" lane='W56_0' pos='-73' freq='1' file='det.out.xml'/>
+    <e1Detector id="334W_B2" lane='W56_1' pos='-73' freq='1' file='det.out.xml'/>
+    <e1Detector id="334W_A1" lane='W58_0' pos='5' freq='1' file='det.out.xml'/>
+    <e1Detector id="334W_A2" lane='W58_1' pos='5' freq='1' file='det.out.xml'/>
+<!--336-->
+    <e1Detector id="336E_B1" lane='E11_0' pos='-116' freq='1' file='det.out.xml'/>
+    <e1Detector id="336E_A1" lane='E13_0' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="336W_B1" lane='W49_0' pos='-95' freq='1' file='det.out.xml'/>
+    <e1Detector id="336W_A1" lane='W51_0' pos='5' freq='1' file='det.out.xml'/>
+<!--338-->
+    <e1Detector id="338E_B1" lane='E18_0' pos='-105' freq='1' file='det.out.xml'/>
+    <e1Detector id="338E_A1" lane='E20_0' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="338W_B1" lane='W42_0' pos='-95' freq='1' file='det.out.xml'/>
+    <e1Detector id="338W_A1" lane='W44_0' pos='5' freq='1' file='det.out.xml'/>
+
+<!--405-->
+    <e1Detector id="405E_B1" lane='E22_0' pos='-8' freq='1' file='det.out.xml'/>
+    <e1Detector id="405E_B2" lane='E22_1' pos='-8' freq='1' file='det.out.xml'/>
+    <e1Detector id="405E_A1" lane='E24_0' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="405W_B1" lane='W37_0' pos='-102' freq='1' file='det.out.xml'/>
+    <e1Detector id="405W_A1" lane='W40_0' pos='5' freq='1' file='det.out.xml'/>
+<!--409-->
+    <e1Detector id="409E_B1" lane='E30_0' pos='-115' freq='1' file='det.out.xml'/>
+    <e1Detector id="409E_A1" lane='E33_0' pos='5' freq='1' file='det.out.xml'/>
+    <e1Detector id="409E_A2" lane='E33_1' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="409W_B1" lane='W29_0' pos='-40' freq='1' file='det.out.xml'/>
+    <!--<e1Detector id="409W_B2" lane='W30_1' pos='-41' freq='1' file='det.out.xml'/>-->
+    <e1Detector id="409W_A1" lane='W32_0' pos='5' freq='1' file='det.out.xml'/>
+    <e1Detector id="409W_A2" lane='W32_1' pos='5' freq='1' file='det.out.xml'/>
+<!--410-->
+    <e1Detector id="410E_B1" lane='E36_0' pos='-115' freq='1' file='det.out.xml'/>
+    <e1Detector id="410E_A1" lane='E38_0' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="410W_B1" lane='W22_0' pos='-85' freq='1' file='det.out.xml'/>
+    <e1Detector id="410W_A1" lane='W26_0' pos='5' freq='1' file='det.out.xml'/>
+<!--420-->
+    <e1Detector id="420E_B1" lane='E51_0' pos='-43' freq='1' file='det.out.xml'/>
+    <!--<e1Detector id="420E_B2" lane='E52_1' pos='-100' freq='1' file='det.out.xml'/>-->
+    <e1Detector id="420E_A1" lane='E53_0' pos='5' freq='1' file='det.out.xml'/>
+
+    <e1Detector id="420W_B1" lane='W9_0' pos='-43' freq='1' file='det.out.xml'/>
+    <e1Detector id="420W_A1" lane='W10_0' pos='5' freq='1' file='det.out.xml'/>
+
+</additional>
