@@ -1,11 +1,11 @@
 # Efficiency analysis of transit signal priority using microsimulations: A case study in Turku City
 
-## To run the simulation you have to install the following programs and configure the following variables. 
+### To run the simulation you have to install the following programs and configure the following variables. 
 1.	Download SUMO (https://sumo.dlr.de/docs/Downloads.php)
 2.	Download Python (https://www.python.org/	
 3.	Add SUMO_HOME to system variables for more information https://sumo.dlr.de/docs/Basics/Basic_Computer_Skills.html
 
-## Start simulation
+### Start simulation
 1.	Once the setups are done the simulations can be ran by clicking the run.bat file. 
 2.	The output files with the original settings are summary output and tripinfo. However, more outputs can be added to the route99.sumocfg files. For more information about SUMO outputs visit https://sumo.dlr.de/docs/Simulation/Output.html
 
