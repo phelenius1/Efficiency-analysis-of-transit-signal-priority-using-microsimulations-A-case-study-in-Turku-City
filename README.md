@@ -2,7 +2,7 @@
 
 ### To run the simulation you have to install the following programs and configure the following variables. 
 1.	Download SUMO (https://sumo.dlr.de/docs/Downloads.php)
-2.	Download Python (https://www.python.org/	
+2.	Download Python 2 (https://www.python.org/	
 3.	Add SUMO_HOME to system variables; for more information https://sumo.dlr.de/docs/Basics/Basic_Computer_Skills.html
 
 ### Choosing the correct seeds
